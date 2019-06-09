@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abc.Web", "Abc.Web\Abc.Web.csproj", "{21153BC5-0E64-462F-AFE4-6C6135AA6AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLogger", "CLogger\CLogger.csproj", "{7DF22098-51A9-4F61-8101-51CD1A9854F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21153BC5-0E64-462F-AFE4-6C6135AA6AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21153BC5-0E64-462F-AFE4-6C6135AA6AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21153BC5-0E64-462F-AFE4-6C6135AA6AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21153BC5-0E64-462F-AFE4-6C6135AA6AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF22098-51A9-4F61-8101-51CD1A9854F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF22098-51A9-4F61-8101-51CD1A9854F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF22098-51A9-4F61-8101-51CD1A9854F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF22098-51A9-4F61-8101-51CD1A9854F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86CD4BA0-F254-430C-A9FC-3507F7C2AE8F}
+	EndGlobalSection
+EndGlobal

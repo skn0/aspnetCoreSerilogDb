@@ -1,0 +1,35 @@
+﻿SELECT TOP (1000) 
+	[Id]
+	,[Level]
+	,[TimeStamp]
+	,[Source]
+	,[Message]
+	,[MessageTemplate]
+	,[Exception]
+	,[Properties]
+  FROM [Abc.Logging].[dbo].[Logs]
+
+
+--  CREATE TABLE [Logs] (
+
+--   [Id] int IDENTITY(1,1) NOT NULL,
+--   [Source] nvarchar(500) NULL,
+--   [Message] nvarchar(max) NULL,
+--   [MessageTemplate] nvarchar(max) NULL,
+--   [Level] nvarchar(128) NULL,
+--   [TimeStamp] datetime NOT NULL,
+--   [Exception] nvarchar(max) NULL,
+-- as JSON or XML
+----   [Properties] nvarchar(max) NULL
+----   [Properties] xml NULL
+--   CONSTRAINT [PK_Logs] PRIMARY KEY CLUSTERED ([Id] ASC) 
+--);
+
+
+-- Sample Querying properties using XQUERY
+--SELECT
+--  [Id],[Source] ,[Message], [TimeStamp], [Exception],
+--  [Properties].value('(//property[@key="year"]/node())[1]', 'nvarchar(max)') AS Year
+--FROM [Abc.Logging].[dbo].[Logs]
+--WHERE
+--  [Properties].value('(//property[@key="year"]/node())[1]', 'nvarchar(max)') = '201
